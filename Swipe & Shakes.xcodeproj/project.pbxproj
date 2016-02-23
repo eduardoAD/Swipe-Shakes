@@ -12,6 +12,12 @@
 		E43992771C4467370078B4ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E43992751C4467370078B4ED /* Main.storyboard */; };
 		E43992791C4467370078B4ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E43992781C4467370078B4ED /* Assets.xcassets */; };
 		E439927C1C4467370078B4ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E439927A1C4467370078B4ED /* LaunchScreen.storyboard */; };
+		E439928D1C446DBF0078B4ED /* belch.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E43992851C446DBF0078B4ED /* belch.mp3 */; };
+		E439928E1C446DBF0078B4ED /* giggle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E43992861C446DBF0078B4ED /* giggle.mp3 */; };
+		E439928F1C446DBF0078B4ED /* pew.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E43992871C446DBF0078B4ED /* pew.mp3 */; };
+		E43992901C446DBF0078B4ED /* pig.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E43992881C446DBF0078B4ED /* pig.mp3 */; };
+		E43992911C446DBF0078B4ED /* snore.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E43992891C446DBF0078B4ED /* snore.mp3 */; };
+		E43992931C446DBF0078B4ED /* uuu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E439928B1C446DBF0078B4ED /* uuu.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		E43992781C4467370078B4ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E439927B1C4467370078B4ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E439927D1C4467370078B4ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E43992851C446DBF0078B4ED /* belch.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = belch.mp3; sourceTree = "<group>"; };
+		E43992861C446DBF0078B4ED /* giggle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = giggle.mp3; sourceTree = "<group>"; };
+		E43992871C446DBF0078B4ED /* pew.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pew.mp3; sourceTree = "<group>"; };
+		E43992881C446DBF0078B4ED /* pig.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pig.mp3; sourceTree = "<group>"; };
+		E43992891C446DBF0078B4ED /* snore.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = snore.mp3; sourceTree = "<group>"; };
+		E439928B1C446DBF0078B4ED /* uuu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = uuu.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 		E43992701C4467370078B4ED /* Swipe & Shakes */ = {
 			isa = PBXGroup;
 			children = (
+				E43992831C446DAC0078B4ED /* Sounds */,
 				E43992711C4467370078B4ED /* AppDelegate.swift */,
 				E43992731C4467370078B4ED /* ViewController.swift */,
 				E43992751C4467370078B4ED /* Main.storyboard */,
@@ -62,6 +75,19 @@
 				E439927D1C4467370078B4ED /* Info.plist */,
 			);
 			path = "Swipe & Shakes";
+			sourceTree = "<group>";
+		};
+		E43992831C446DAC0078B4ED /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				E43992851C446DBF0078B4ED /* belch.mp3 */,
+				E43992861C446DBF0078B4ED /* giggle.mp3 */,
+				E43992871C446DBF0078B4ED /* pew.mp3 */,
+				E43992881C446DBF0078B4ED /* pig.mp3 */,
+				E43992891C446DBF0078B4ED /* snore.mp3 */,
+				E439928B1C446DBF0078B4ED /* uuu.mp3 */,
+			);
+			name = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +148,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E43992911C446DBF0078B4ED /* snore.mp3 in Resources */,
+				E439928E1C446DBF0078B4ED /* giggle.mp3 in Resources */,
+				E43992931C446DBF0078B4ED /* uuu.mp3 in Resources */,
+				E439928D1C446DBF0078B4ED /* belch.mp3 in Resources */,
 				E439927C1C4467370078B4ED /* LaunchScreen.storyboard in Resources */,
 				E43992791C4467370078B4ED /* Assets.xcassets in Resources */,
+				E43992901C446DBF0078B4ED /* pig.mp3 in Resources */,
 				E43992771C4467370078B4ED /* Main.storyboard in Resources */,
+				E439928F1C446DBF0078B4ED /* pew.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
